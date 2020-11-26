@@ -37,14 +37,14 @@
 
 1. 访问 DCloud 插件市场的 [腾讯云插件 - 云函数模板](https://ext.dcloud.net.cn/plugin?id=2139) 详情页；
 2. 点击详情页右上角 **使用 HBuilderX 导入插件**，将云函数模板导入到您的项目中；
-![](../images/DCloud/guide/guide-1.png)
+![](./images/guide/guide-1.png)
 3. 在项目中打开 _cloudfunctions/tencentcloud-plugin/config.js_ 文件，将腾讯云的密钥信息配置进去，可以在腾讯云 [API 密钥管理](https://console.cloud.tencent.com/cam/capi) 中获取 SecretId、SecretKey 和 APPID；
-![](../images/DCloud/guide/guide-2.png)
+![](./images/guide/guide-2.png)
 4. 在[uniCloud控制台](https://unicloud.dcloud.net.cn/login)注册HBuild账号并登录，创建[云服务空间](https://uniapp.dcloud.net.cn/uniCloud/concepts/space)；
 5. 在项目中打开 _cloudfunctions/tencentcloud-plugin/tts/config.js 文件，将region配置进去，具体可参考[地域列表](https://cloud.tencent.com/document/api/1073/37989#.E5.9C.B0.E5.9F.9F.E5.88.97.E8.A1.A8)；
-![](../images/DCloud/guide/guide-3.png)
+![](./images/guide/guide-3.png)
 6. 绑定云函数的云服务空间，将[云函数](https://uniapp.dcloud.net.cn/uniCloud/concepts/cloudfunction) [**上传部署**](https://uniapp.dcloud.net.cn/uniCloud/quickstart?id=rundebug) 到您的[云服务空间](https://uniapp.dcloud.net.cn/uniCloud/concepts/space)；
-![](../images/DCloud/guide/guide-4.png)
+![](./images/guide/guide-4.png)
 
 > 如果您之前在使用其它腾讯云产品的 uni-app 插件时已经导入过此云函数模板，则前 4 个步骤可以省略。
 
@@ -62,7 +62,7 @@
 
 ### 4.1. 插件API导图
 
-![](../images/DCloud/tts-guide.png)
+![](./images/tts-guide.png)
 
 ### 4.2. 插件API列表
 
